@@ -2,7 +2,7 @@ const apiData = [];
 
 const fetchNews = () => {
 
-const apiEndpoint = "https://newsapi.org/v2/everything?q=tesla&from=2022-08-07&sortBy=publishedAt&apiKey=3cf3e094d88f40c9bd765757ad4e6bd6"
+const apiEndpoint = "https://newsapi.org/v2/everything?q=tesla&from=2022-08-08&sortBy=publishedAt&apiKey=3cf3e094d88f40c9bd765757ad4e6bd6"
 //Endpoint er den url jeg får data far
 fetch(apiEndpoint)
 //response er serverens respons til mig - hvis det lykkes at nå mit endpoint
