@@ -26,7 +26,7 @@ const fetchNews = () => {
 
 //Her mapper vi dataen så det er klart til at blive rendered
 const renderContent = () => {
-	apiData[0].map((news) => createCard(news));
+	apiData.map((news) => createCard(news));
 };
 
 // Her render vi dataen ved at sætte det i et 'card' på selve siden
@@ -35,9 +35,6 @@ const createCard = (data) => {
 
     <div>${data.title}</div>
     <img src="${data.urlToImage}"</img>
-    
-    
-
     `;
 };
 
